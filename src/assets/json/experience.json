@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Chatbot Developer",
+    "company": "HighRadius Technologies",
+    "job_role": "Chatbot Developer Intern",
+    "from": "06-01-2021",
+    "to": "05-31-2022",
+    "responsibilities": [
+      "Create, modify and Test chatbot intents in Google DialogFlow.",
+      "Integrate the intents with the backend using company’s proprietary software.",
+      "Integrate APIs and check the working of the intents with respect to the product specification.",
+      "Check voice commands for the intents.",
+      "Create variants for statements provided in the intents.",
+      "Create new intents for multiple languages and also make multilingual intents for existing intents."
+    ],
+    "learning": [
+      "First-hand experience of corporate environment.",
+      "Know-how of the working in a company.",
+      "How to attend and take part in meetings.",
+      "Team work and group discussion on making decisions.",
+      "Planning for a project/work assigned.",
+      "Distribution of work for better efficiency.",
+      "Importance of on-time completion of work."
+    ],
+    "skills": ["Google Dialogflow", "MySQL", "Frontend(ReactJs)"]
+  }
+]

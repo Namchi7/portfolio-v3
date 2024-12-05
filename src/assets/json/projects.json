@@ -1,0 +1,144 @@
+[
+  {
+    "id": 1,
+    "type": "web",
+    "title": "Tic-Tac-Toe",
+    "intro": "Two Player Tic-Tac-Toe Game.",
+    "tech": [
+      { "name": "HTML", "value": "html" },
+      { "name": "CSS", "value": "css" },
+      { "name": "JavaScript", "value": "javascript" }
+    ],
+    "image_path": "https://res.cloudinary.com/dczhwrate/image/upload/v1733060460/aman_portfolio_v3/tic-tac-toe.png",
+    "description": "This is a two player Tic-Tac-Toe game where you can select custom icons provided giving a whole new gaming experience.",
+    "github": "https://github.com/Namchi7/Tic-Tac-Toe-JS-Game",
+    "live_link": "https://namchi7.github.io/Tic-Tac-Toe-JS-Game",
+    "date": "01-05-2022"
+  },
+  {
+    "id": 2,
+    "type": "web",
+    "title": "Shopping List",
+    "intro": "An app to remember the shopping list",
+    "tech": [
+      { "name": "HTML", "value": "html" },
+      { "name": "CSS", "value": "css" },
+      { "name": "JavaScript", "value": "javascript" }
+    ],
+    "image_path": "https://res.cloudinary.com/dczhwrate/image/upload/v1733060460/aman_portfolio_v3/shopping-list.png",
+    "description": "Create, edit and manage tou shopping lists in one place so you do not forget your important items saving you an extra trip to the market.",
+    "github": "https://github.com/Namchi7/Shopping-List",
+    "live_link": "https://namchi7.github.io/Shopping-List",
+    "date": "01-07-2022"
+  },
+  {
+    "id": 3,
+    "type": "web",
+    "title": "Countries",
+    "intro": "Search country details.",
+    "tech": [
+      { "name": "React.js", "value": "react" },
+      { "name": "Redux-Toolkit", "value": "redux" },
+      { "name": "React Router", "value": "react-router" }
+    ],
+    "image_path": "https://res.cloudinary.com/dczhwrate/image/upload/v1733060460/aman_portfolio_v3/lscountry.png",
+    "description": "A simple app to get information about any country with the flag.",
+    "github": "https://github.com/Namchi7/Countries",
+    "live_link": "https://countriesaman.netlify.app",
+    "date": "01-01-2023"
+  },
+  {
+    "id": 4,
+    "type": "web",
+    "title": "LsAnime",
+    "intro": "Get anime information.",
+    "tech": [
+      { "name": "React.js", "value": "react" },
+      { "name": "Redux-Toolkit", "value": "redux" },
+      { "name": "React Router", "value": "react-router" }
+    ],
+    "image_path": "https://res.cloudinary.com/dczhwrate/image/upload/v1733060460/aman_portfolio_v3/lsanime.png",
+    "description": "One stop website to check out the information on all your favorite animes. This project is made using ReactJs, Redux-Toolkit and React Router. API is provided by Jikan.moe.",
+    "github": "https://github.com/Namchi7/lsAnime",
+    "live_link": "https://lsanime.netlify.app",
+    "date": "01-02-2023"
+  },
+  {
+    "id": 5,
+    "type": "web",
+    "title": "TaskIt",
+    "intro": "Only Task Manager you need.",
+    "tech": [
+      { "name": "React.js", "value": "react" },
+      { "name": "Node.js", "value": "nodejs" },
+      { "name": "Express.js", "value": "expressjs" },
+      { "name": "MongoDB", "value": "mongodb" },
+      { "name": "JavaScript", "value": "javascript" },
+      { "name": "JWT", "value": "jwt" },
+      { "name": "Redux-Toolkit", "value": "redux" },
+      { "name": "React Router", "value": "react-router" }
+    ],
+    "image_path": "https://res.cloudinary.com/dczhwrate/image/upload/v1733060460/aman_portfolio_v3/taskit.png",
+    "description": "This is a task management app in MERN, which organizes tasks into to-do, ongoing and done categories.\nFeatures: - Create Task, Edit Task, Delete Task, User Authentication, User Password hashed and stored, Login session implemented using JWT (JSON Web Token).",
+    "github": "https://github.com/Namchi7/taskit",
+    "live_link": "https://taskit0.netlify.app",
+    "date": "01-09-2023"
+  },
+  {
+    "id": 6,
+    "type": "web",
+    "title": "Varta - ChatApp",
+    "intro": "Chat with anyone on Varta.",
+    "tech": [
+      { "name": "React.js", "value": "react" },
+      { "name": "Node.js", "value": "nodejs" },
+      { "name": "Express.js", "value": "expressjs" },
+      { "name": "MongoDB", "value": "mongodb" },
+      { "name": "TypeScript", "value": "typescript" },
+      { "name": "Tailwind CSS", "value": "tailwindcss" },
+      { "name": "Socket.IO", "value": "socket.io" },
+      { "name": "JWT", "value": "jwt" },
+      { "name": "Redux-Toolkit", "value": "redux" },
+      { "name": "React Router", "value": "react-router" }
+    ],
+    "image_path": "https://res.cloudinary.com/dczhwrate/image/upload/v1733060460/aman_portfolio_v3/varta.png",
+    "description": "This is a Chat App in MERN, Tailwind CSS and TypeScript, which connects you with other users in real-time.\nFeatures: \n- Chat in real-time using Socket.IO.\n- User Authentication,\n- User Password hashed and stored,\n- Login session implemented using JWT (JSON Web Token).",
+    "github": "https://github.com/Namchi7/varta-chatapp",
+    "live_link": "https://varta-chatapp.netlify.app",
+    "date": "01-05-2024"
+  },
+  {
+    "id": 7,
+    "type": "mobile",
+    "title": "LsAnime App",
+    "intro": "Get anime information.",
+    "tech": [
+      { "name": "React Native", "value": "react-native" },
+      { "name": "Redux-Toolkit", "value": "redux" },
+      { "name": "Expo", "value": "expo" },
+      { "name": "Android", "value": "android" }
+    ],
+    "image_path": "https://res.cloudinary.com/dczhwrate/image/upload/v1733060460/aman_portfolio_v3/lsanime-app.png",
+    "description": "Mobile app for the LsAnime WebApp to check out the information on all your favorite animes on your android device.\nThis project is made using React Native, Redux-Toolkit, Expo and Expo Router. API is provided by Jikan.moe.",
+    "github": "https://github.com/Namchi7/lsanime-app",
+    "live_link": "",
+    "date": "01-08-2024"
+  },
+  {
+    "id": 8,
+    "type": "web",
+    "title": "Movie Database - TMDB Clone",
+    "intro": "Clone of TMDB website.",
+    "tech": [
+      { "name": "Next.js", "value": "nextjs" },
+      { "name": "React.js", "value": "react" },
+      { "name": "TypeScript", "value": "typescript" },
+      { "name": "Tailwind CSS", "value": "tailwindcss" }
+    ],
+    "image_path": "https://res.cloudinary.com/dczhwrate/image/upload/v1733060460/aman_portfolio_v3/tmvdb.png",
+    "description": "This is a clone of TMDB website made in NextJs, Tailwind CSS and TypeScript, which gives the information about all the movies using the TMDB developer API.",
+    "github": "https://github.com/Namchi7/movie-databse",
+    "live_link": "https://tmvdb.netlify.app",
+    "date": "01-10-2024"
+  }
+]
