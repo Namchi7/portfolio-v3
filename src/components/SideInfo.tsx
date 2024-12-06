@@ -80,7 +80,6 @@ const SideInfo: React.FC = () => {
 
           <div className="block 2xl:hidden w-full h-[1px] bg-jet"></div>
 
-          {/* TODO: Add links */}
           <ul className="w-full flex justify-center items-center gap-4">
             <li className="size-4 flex justify-center items-center">
               <Link
