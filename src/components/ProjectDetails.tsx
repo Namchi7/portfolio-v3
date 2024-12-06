@@ -49,7 +49,7 @@ const ProjectDetails: React.FC<{
                         target="_blank"
                         className="flex justify-start items-center gap-1 bg-onyx-75 rounded-7p shadow-shadow-3 border border-jet px-2 py-1 group hover:cursor-pointer"
                       >
-                        <div className="size-5 opacity-75 group-hover:opacity-100">
+                        <div className="size-4 sm:size-5 opacity-75 group-hover:opacity-100">
                           <svg
                             width="128"
                             height="128"
@@ -61,7 +61,9 @@ const ProjectDetails: React.FC<{
                             <path d="M14 5a1 1 0 1 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0V6.414l-9.293 9.293a1 1 0 0 1-1.414-1.414L17.586 5zM3 7a2 2 0 0 1 2-2h5a1 1 0 1 1 0 2H5v12h12v-5a1 1 0 1 1 2 0v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
                           </svg>
                         </div>
-                        <p className="text-sm text-light-gray">Link</p>
+                        <p className="text-13p sm:text-sm text-light-gray">
+                          Link
+                        </p>
                       </Link>
                     )}
 
@@ -72,7 +74,7 @@ const ProjectDetails: React.FC<{
                         target="_blank"
                         className="flex justify-start items-center gap-1 bg-onyx-75 rounded-7p shadow-shadow-3 border border-jet px-2 py-1 group hover:cursor-pointer"
                       >
-                        <div className="size-5 opacity-75 group-hover:opacity-100">
+                        <div className="size-4 sm:size-5 opacity-75 group-hover:opacity-100">
                           <svg
                             width="48"
                             height="48"
@@ -89,7 +91,9 @@ const ProjectDetails: React.FC<{
                           </svg>
                         </div>
 
-                        <p className="text-sm text-light-gray">Github</p>
+                        <p className="text-13p sm:text-sm text-light-gray">
+                          Github
+                        </p>
                       </Link>
                     )}
                   </div>

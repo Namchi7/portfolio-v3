@@ -52,8 +52,8 @@ const Work: React.FC<{ work: ExpWorkType }> = ({ work }) => {
   };
 
   return (
-    <div className="w-full grid grid-cols-[1.5rem,1fr] gap-4 sm:gap-20p mt-30p">
-      <div className="size-6 flex justify-center items-center">
+    <div className="w-full grid grid-cols-[1.25rem,1fr] sm:grid-cols-[1.5rem,1fr] gap-2 xs:gap-4 sm:gap-20p mt-30p">
+      <div className="size-5 sm:size-6 flex justify-center items-center">
         <Image
           src={sign}
           alt="o"
@@ -85,46 +85,52 @@ const Work: React.FC<{ work: ExpWorkType }> = ({ work }) => {
           </span>
         </div>
 
-        <ul className="w-full flex flex-col justify-start items-start mt-4">
+        <div className="w-full flex flex-col justify-start items-start mt-4">
           <p className="text-15p text-white-2 font-medium">Responsibilities:</p>
 
-          {work.responsibilities.map((item, i: number) => (
-            <li
-              className="text-15p text-light-gray font-normal list-disc list-inside mt-2"
-              key={i}
-            >
-              {item}
-            </li>
-          ))}
-        </ul>
+          <ul className="w-full flex flex-col justify-start items-start pl-4">
+            {work.responsibilities.map((item, i: number) => (
+              <li
+                className="text-13p sm:text-15p text-light-gray font-normal list-disc mt-2"
+                key={i}
+              >
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
 
-        <ul className="w-full flex flex-col justify-start items-start mt-4">
+        <div className="w-full flex flex-col justify-start items-start mt-4">
           <p className="text-15p text-white-2 font-medium">
             Learning Experience:
           </p>
 
-          {work.learning.map((item, i: number) => (
-            <li
-              className="text-15p text-light-gray font-normal list-disc list-inside mt-2"
-              key={i}
-            >
-              {item}
-            </li>
-          ))}
-        </ul>
+          <ul className="w-full flex flex-col justify-start items-start pl-4">
+            {work.learning.map((item, i: number) => (
+              <li
+                className="text-13p sm:text-15p text-light-gray font-normal list-disc mt-2"
+                key={i}
+              >
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
 
-        <ul className="w-full flex flex-col justify-start items-start mt-4">
+        <div className="w-full flex flex-col justify-start items-start mt-4">
           <p className="text-15p text-white-2 font-medium">Skills:</p>
 
-          {work.skills.map((item, i: number) => (
-            <li
-              className="text-15p text-light-gray font-normal list-disc list-inside mt-2"
-              key={i}
-            >
-              {item}
-            </li>
-          ))}
-        </ul>
+          <ul className="w-full flex flex-col justify-start items-start pl-4">
+            {work.skills.map((item, i: number) => (
+              <li
+                className="text-13p sm:text-15p text-light-gray font-normal list-disc mt-2"
+                key={i}
+              >
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
 
         <div className="hidden w-full rounded-8p h-30p bg-onyx mt-4"></div>
       </div>
