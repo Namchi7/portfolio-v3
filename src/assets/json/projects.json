@@ -137,7 +137,7 @@
     ],
     "image_path": "https://res.cloudinary.com/dczhwrate/image/upload/v1733060460/aman_portfolio_v3/tmvdb.png",
     "description": "This is a clone of TMDB website made in NextJs, Tailwind CSS and TypeScript, which gives the information about all the movies using the TMDB developer API.",
-    "github": "https://github.com/Namchi7/movie-databse",
+    "github": "https://github.com/Namchi7/movie-database-tmdb",
     "live_link": "https://tmvdb.netlify.app",
     "date": "01-10-2024"
   }
