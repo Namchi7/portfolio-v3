@@ -1,10 +1,10 @@
 import React from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
-const SkillCard: React.FC<{ title: string; image: string }> = ({
-  title,
-  image,
-}) => {
+const SkillCard: React.FC<{
+  title: string;
+  image: string | StaticImageData;
+}> = ({ title, image }) => {
   return (
     <div className="bg-border-gradient-onyx rounded-14p shadow-shadow-2 p-[1px] group">
       <div className="size-full grid grid-flow-row gap-4 gradient-jet rounded-14p p-5 md:p-30p">

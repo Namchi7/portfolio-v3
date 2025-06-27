@@ -21,17 +21,26 @@ const Work: React.FC<{ work: ExpWorkType }> = ({ work }) => {
   ];
 
   const getDurationStr = () => {
-    const to: Date = work.to === "Present" ? new Date() : new Date(work.to);
+    const to: Date =
+      work.to.toLowerCase() === "present" || work.to === ""
+        ? new Date()
+        : new Date(work.to);
     const from: Date = new Date(work.from);
 
     const fromM: string = months[from.getMonth()];
     const toM: string = work.to === "Present" ? "" : months[to.getMonth()];
 
     const fromY: number = from.getFullYear();
-    const toY: number = work.to === "Present" ? 0 : to.getFullYear();
+    const toY: number =
+      work.to.toLowerCase() === "present" || work.to === ""
+        ? 0
+        : to.getFullYear();
 
     const fromDate: string = `${fromM} ${fromY}`;
-    const toDate: string = work.to === "Present" ? "Present" : `${toM} ${toY}`;
+    const toDate: string =
+      work.to.toLowerCase() === "present" || work.to === ""
+        ? "Present"
+        : `${toM} ${toY}`;
 
     const totalMos: number =
       (to.getFullYear() - from.getFullYear()) * 12 +

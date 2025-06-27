@@ -18,6 +18,10 @@ import redux from "@/assets/svg/redux.svg";
 import html from "@/assets/svg/html.svg";
 import css from "@/assets/svg/css.svg";
 import figma from "@/assets/svg/figma.svg";
+import firebase from "@/assets/svg/firebase.svg";
+import reactNative from "@/assets/images/react-native.png";
+import expo from "@/assets/svg/expo.svg";
+import scss from "@/assets/svg/scss.svg";
 
 const Home: React.FC = () => {
   return (
@@ -59,7 +63,7 @@ const Home: React.FC = () => {
 
           <BorderedCard
             title="Mobile Apps"
-            description="Professional development of applications for Android."
+            description="Professional application development for IOS and Android."
             image={mobile}
           />
         </div>
@@ -74,12 +78,16 @@ const Home: React.FC = () => {
           <SkillCard title="NodeJs" image={nodejs} />
           <SkillCard title="ExpressJs" image={expressjs} />
           <SkillCard title="MongoDB" image={mongodb} />
+          <SkillCard title="React Native" image={reactNative} />
+          <SkillCard title="Expo" image={expo} />
           <SkillCard title="TypeScript" image={typescript} />
           <SkillCard title="JavaScript" image={javascript} />
           <SkillCard title="Tailwind CSS" image={tailwindcss} />
+          <SkillCard title="Firebase" image={firebase} />
           <SkillCard title="Redux" image={redux} />
           <SkillCard title="HTML" image={html} />
           <SkillCard title="CSS" image={css} />
+          <SkillCard title="SCSS" image={scss} />
           <SkillCard title="Figma" image={figma} />
         </div>
       </div>
