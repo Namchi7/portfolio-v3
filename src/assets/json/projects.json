@@ -140,5 +140,90 @@
     "github": "https://github.com/Namchi7/movie-database-tmdb",
     "live_link": "https://tmvdb.netlify.app",
     "date": "01-10-2024"
+  },
+  {
+    "id": 9,
+    "type": "web",
+    "relatedTo": "SalesPoint AS",
+    "title": "Kokkendin",
+    "intro": "E-commerce store for professional kitchen equipment.",
+    "tech": [
+      { "name": "React.js", "value": "react" },
+      { "name": "TypeScript", "value": "typescript" },
+      { "name": "SCSS", "value": "scss" }
+    ],
+    "image_path": "",
+    "description": "An online store for a Norwegian importer of professional kitchen equipment, tableware and glassware, with product catalogues, live stock levels and business customer accounts with their own agreed prices.",
+    "github": "",
+    "live_link": "https://kokkendin.no",
+    "date": "05-01-2025"
+  },
+  {
+    "id": 10,
+    "type": "web",
+    "relatedTo": "SalesPoint AS",
+    "title": "Tamat",
+    "intro": "Online food ordering and table reservations for restaurants.",
+    "tech": [
+      { "name": "React.js", "value": "react" },
+      { "name": "TypeScript", "value": "typescript" },
+      { "name": "SCSS", "value": "scss" }
+    ],
+    "image_path": "",
+    "description": "A web platform where restaurant customers order takeaway or home delivery, reserve tables and pay online, fully integrated with the SalesPoint POS system and kitchen printers.",
+    "github": "",
+    "live_link": "https://tamat.to",
+    "date": "04-01-2025"
+  },
+  {
+    "id": 11,
+    "type": "mobile",
+    "relatedTo": "SalesPoint AS",
+    "title": "Tamat App",
+    "intro": "Tamat online ordering app for iOS and Android.",
+    "tech": [
+      { "name": "React Native", "value": "react-native" },
+      { "name": "Expo", "value": "expo" },
+      { "name": "TypeScript", "value": "typescript" }
+    ],
+    "image_path": "",
+    "description": "The Tamat mobile app for iOS and Android, built with React Native and Expo, bringing online food ordering and live order status to mobile devices.",
+    "github": "",
+    "live_link": "",
+    "date": "03-01-2025"
+  },
+  {
+    "id": 12,
+    "type": "mobile",
+    "relatedTo": "SalesPoint AS",
+    "title": "SalesOffice App",
+    "intro": "Mobile companion app for the SalesPoint back office.",
+    "tech": [
+      { "name": "React Native", "value": "react-native" },
+      { "name": "Expo", "value": "expo" },
+      { "name": "TypeScript", "value": "typescript" }
+    ],
+    "image_path": "",
+    "description": "A mobile app for SalesPoint's back office, giving business owners access to their sales data and store management on the go.",
+    "github": "",
+    "live_link": "",
+    "date": "02-01-2025"
+  },
+  {
+    "id": 13,
+    "type": "web",
+    "relatedTo": "SalesPoint AS",
+    "title": "SalesPoint Website",
+    "intro": "Company website for SalesPoint's POS, kiosk and online ordering products.",
+    "tech": [
+      { "name": "React.js", "value": "react" },
+      { "name": "TypeScript", "value": "typescript" },
+      { "name": "SCSS", "value": "scss" }
+    ],
+    "image_path": "",
+    "description": "The official website of SalesPoint, a Norwegian software company offering POS systems, self-service kiosks, online stores and the Tamat ordering platform.",
+    "github": "",
+    "live_link": "https://salespoint.no",
+    "date": "01-01-2025"
   }
 ]

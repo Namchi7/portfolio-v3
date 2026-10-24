@@ -26,15 +26,23 @@ const ProjectDetails: React.FC<{
           <div className="w-full sm:w-420p md:w-700p lg:w-950p xl:w-[75rem] bg-border-gradient-onyx rounded-14p shadow-shadow-2 p-[1px] pb-0 pr-0">
             <div className="size-full grid grid-cols-1 gap-4 gradient-jet rounded-14p p-4 sm:p-20p md:p-30p">
               <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="aspect-[4/3] w-full flex justify-center items-center bg-white rounded-8p mx-auto md:mx-0 overflow-hidden">
-                  <Image
-                    src={projectData?.image_path ?? ""}
-                    alt={projectData?.title ?? "Title"}
-                    width={600}
-                    height={450}
-                    className="w-full object-cover object-center"
-                  />
-                </div>
+                {projectData?.image_path ? (
+                  <div className="aspect-[4/3] w-full flex justify-center items-center bg-white rounded-8p mx-auto md:mx-0 overflow-hidden">
+                    <Image
+                      src={projectData.image_path}
+                      alt={projectData.title}
+                      width={600}
+                      height={450}
+                      className="w-full object-cover object-center"
+                    />
+                  </div>
+                ) : (
+                  <div className="aspect-[4/3] w-full flex justify-center items-center gradient-jet border border-jet rounded-8p mx-auto md:mx-0 p-4">
+                    <p className="text-3xl text-white-2 font-semibold text-center">
+                      {projectData?.title}
+                    </p>
+                  </div>
+                )}
 
                 <div className="w-full h-full flex flex-col justify-center items-center md:items-start gap-2">
                   <h4 className="text-2xl md:text-3xl text-white-2 font-semibold">

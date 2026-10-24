@@ -19,13 +19,21 @@ const ProjectCard: React.FC<{
   return (
     <div className="h-full flex flex-col justify-start items-start gap-1">
       <div className="shrink-0 relative aspect-[4/3] w-full flex justify-center items-start bg-gray-900 rounded-14p sm:rounded-20p overflow-hidden group">
-        <Image
-          src={projectData?.image_path}
-          alt={projectData?.title}
-          width={400}
-          height={300}
-          className="size-full scale-100 group-hover:scale-110 transition-all duration-200 object-cover object-center flex justify-center items-center text-sm text-center text-light-gray"
-        />
+        {projectData?.image_path ? (
+          <Image
+            src={projectData?.image_path}
+            alt={projectData?.title}
+            width={400}
+            height={300}
+            className="size-full scale-100 group-hover:scale-110 transition-all duration-200 object-cover object-center flex justify-center items-center text-sm text-center text-light-gray"
+          />
+        ) : (
+          <div className="size-full scale-100 group-hover:scale-110 transition-all duration-200 flex justify-center items-center gradient-jet p-4">
+            <p className="text-2xl text-white-2 font-semibold text-center">
+              {projectData?.title}
+            </p>
+          </div>
+        )}
 
         <div className="absolute size-full hidden group-hover:flex flex-row justify-center items-center gap-2 bg-black/10 z-5">
           <div

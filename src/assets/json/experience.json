@@ -6,27 +6,26 @@
     "from": "01-01-2025",
     "to": "Present",
     "responsibilities": [
-      "Manage the Frontend development of all website.",
-      "Maintain website responsiveness across all screen sizes.",
-      "Creating and managing backend services with APIs.",
-      "Mobile app development.",
-      "Bug and error resolution.",
-      "Improving the SEO for the websites."
+      "Lead frontend development across all company websites.",
+      "Ensure every website is fully responsive across devices and screen sizes.",
+      "Build and maintain backend services and APIs.",
+      "Develop cross-platform mobile apps with React Native and Expo.",
+      "Diagnose and resolve bugs and production issues.",
+      "Improve website SEO to boost search visibility."
     ],
     "learning": [
-      "Managing projects in a mono-repositories.",
-      "Handling tight time constraints.",
-      "High speed development and bug resolution.",
-      "Working in a high speed and tight scheduled environment.",
-      "Planning on project workflow and algorithm.",
-      "Managing team members and allocating resources effectively."
+      "Managing multiple projects within a monorepo.",
+      "Delivering quality work under tight deadlines.",
+      "Shipping features and fixing bugs quickly in a fast-paced environment.",
+      "Planning project workflows and designing solution logic upfront.",
+      "Leading team members and allocating resources effectively."
     ],
     "skills": [
-      "ReactJs",
+      "React",
       "TypeScript",
       "React Native",
       "Expo",
-      ".Net",
+      ".NET",
       "C#",
       "Firebase",
       "API Integration",
@@ -43,22 +42,22 @@
     "from": "06-01-2021",
     "to": "05-31-2022",
     "responsibilities": [
-      "Create, modify and Test chatbot intents in Google DialogFlow.",
-      "Integrate the intents with the backend using company’s proprietary software.",
-      "Integrate APIs and check the working of the intents with respect to the product specification.",
-      "Check voice commands for the intents.",
-      "Create variants for statements provided in the intents.",
-      "Create new intents for multiple languages and also make multilingual intents for existing intents."
+      "Created, updated, and tested chatbot intents in Google Dialogflow.",
+      "Connected intents to the backend using the company’s proprietary platform.",
+      "Integrated APIs and verified intent behavior against product specifications.",
+      "Tested and validated voice commands for each intent.",
+      "Wrote varied phrasings for intent training statements to improve recognition.",
+      "Built new intents in multiple languages and added multilingual support to existing ones."
     ],
     "learning": [
-      "First-hand experience of corporate environment.",
-      "Know-how of the working in a company.",
-      "How to attend and take part in meetings.",
-      "Team work and group discussion on making decisions.",
-      "Planning for a project/work assigned.",
-      "Distribution of work for better efficiency.",
-      "Importance of on-time completion of work."
+      "Hands-on experience in a professional corporate environment.",
+      "Understanding how teams and processes work inside a company.",
+      "Participating actively and contributing in meetings.",
+      "Collaborating with the team and reaching decisions through discussion.",
+      "Planning and organizing assigned work.",
+      "Dividing tasks effectively to improve team efficiency.",
+      "The importance of delivering work on time."
     ],
-    "skills": ["Google Dialogflow", "MySQL", "Frontend(ReactJs)"]
+    "skills": ["Google Dialogflow", "MySQL", "Frontend (React)"]
   }
 ]
