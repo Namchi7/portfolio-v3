@@ -3,63 +3,9 @@ import Image from "next/image";
 
 import sign from "@/assets/svg/sign.svg";
 import { ExpWorkType } from "@/constants/types";
+import ExperienceDuration from "./ExperienceDuration";
 
 const Work: React.FC<{ work: ExpWorkType }> = ({ work }) => {
-  const months: string[] = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
-  ];
-
-  const getDurationStr = () => {
-    const to: Date =
-      work.to.toLowerCase() === "present" || work.to === ""
-        ? new Date()
-        : new Date(work.to);
-    const from: Date = new Date(work.from);
-
-    const fromM: string = months[from.getMonth()];
-    const toM: string = work.to === "Present" ? "" : months[to.getMonth()];
-
-    const fromY: number = from.getFullYear();
-    const toY: number =
-      work.to.toLowerCase() === "present" || work.to === ""
-        ? 0
-        : to.getFullYear();
-
-    const fromDate: string = `${fromM} ${fromY}`;
-    const toDate: string =
-      work.to.toLowerCase() === "present" || work.to === ""
-        ? "Present"
-        : `${toM} ${toY}`;
-
-    const totalMos: number =
-      (to.getFullYear() - from.getFullYear()) * 12 +
-      (to.getMonth() - from.getMonth()) +
-      1;
-
-    const yrs: number = Math.floor(totalMos / 12);
-    const mos: number = totalMos % 12;
-
-    const yrsStr: string = yrs < 1 ? "" : `${yrs}yrs`;
-    const mosStr: string = mos < 1 ? "" : `${mos}mos`;
-
-    const ymStr: string = [yrsStr, mosStr].filter((str) => str).join(" ");
-
-    const durationStr: string = `${fromDate} - ${toDate} (${ymStr})`;
-
-    return durationStr;
-  };
-
   return (
     <div className="w-full grid grid-cols-[1.25rem,1fr] sm:grid-cols-[1.5rem,1fr] gap-2 xs:gap-4 sm:gap-20p mt-30p">
       <div className="size-5 sm:size-6 flex justify-center items-center">
@@ -89,9 +35,11 @@ const Work: React.FC<{ work: ExpWorkType }> = ({ work }) => {
 
         <div className="flex flex-row justify-start items-baseline gap-1 mt-8p">
           <span className="text-15p text-white-2 font-medium">Duration:</span>
-          <span className="text-15p text-light-gray font-normal">
-            {getDurationStr()}
-          </span>
+          <ExperienceDuration
+            from={work.from}
+            to={work.to}
+            className="text-15p text-light-gray font-normal"
+          />
         </div>
 
         <div className="w-full flex flex-col justify-start items-start mt-4">

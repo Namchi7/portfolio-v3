@@ -8,29 +8,32 @@
     "responsibilities": [
       "Manage the Frontend development of all website.",
       "Maintain website responsiveness across all screen sizes.",
-      "Testing UI on different screen sizes.",
+      "Creating and managing backend services with APIs.",
       "Mobile app development.",
       "Bug and error resolution.",
       "Improving the SEO for the websites."
     ],
     "learning": [
       "Managing projects in a mono-repositories.",
-      "Time management.",
+      "Handling tight time constraints.",
       "High speed development and bug resolution.",
       "Working in a high speed and tight scheduled environment.",
       "Planning on project workflow and algorithm.",
-      ""
+      "Managing team members and allocating resources effectively."
     ],
     "skills": [
       "ReactJs",
       "TypeScript",
       "React Native",
       "Expo",
+      ".Net",
+      "C#",
       "Firebase",
       "API Integration",
       "SEO",
       "Mobile Push Notifications",
-      "SCSS"
+      "SCSS",
+      "Prompt Engineering"
     ]
   },
   {

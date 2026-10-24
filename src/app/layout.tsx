@@ -25,7 +25,7 @@ export default function RootLayout({
       <body
         className={`${poppins.className} antialiased w-full flex justify-center items-center bg-smoky-black`}
       >
-        <div className="size-full overflow-scroll grid">
+        <div className="size-full overflow-x-hidden overflow-y-auto grid">
           <div className="size-full max-w-[75rem] flex flex-col 2xl:flex-row justify-start 2xl:justify-center items-center 2xl:items-start gap-20p md:gap-30p p-4 pb-16 sm:p-20p sm:pb-20 md:py-12 md:pb-20 lg:py-12 lg:px-0 mx-auto">
             <SideInfo />
 

@@ -7,6 +7,7 @@ export interface ExpWorkType {
   responsibilities: string[];
   learning: string[];
   skills: string[];
+  projects?: ProjectsType;
 }
 
 export type ExperienceType = ExpWorkType[];
@@ -22,6 +23,7 @@ export interface ProjectDetailsType {
   github: string;
   live_link: string;
   date: string;
+  relatedTo?: string;
 }
 
 export type ProjectsType = ProjectDetailsType[];

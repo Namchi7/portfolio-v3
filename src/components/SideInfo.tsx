@@ -24,7 +24,7 @@ const SideInfo: React.FC = () => {
               Aman Kumar
             </h1>
             <p className="w-max text-xs text-white-1 font-light bg-onyx rounded-8p px-3 py-6p">
-              React Developer
+              Full Stack Developer
             </p>
           </div>
         </div>
